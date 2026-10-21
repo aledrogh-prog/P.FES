@@ -17,6 +17,25 @@ else:
 # Exercici 2: Calculadora senzilla
 # Demana a l'usuari dos nombres i una operació (+, -, *, /).
 # Fes l'operació i mostra'n el resultat (gestiona la divisió per zero).
+num1= float(input("Introdueix el primer nombre: "))
+num2= float(input("Introdueix el segon nombre: "))
+operació= input("Introdueix una operació (+, -, *, /): ")
+if operació == "/" and num2 == 0:
+ print("Error")
+elif operació == "+":
+ resultat = num1 +num2
+ print(f"El resultat és {resultat}")
+elif operació == "-":
+ resultat = num1 - num2
+ print(f"El resultat és {resultat}")
+elif operació == "*":
+ resultat = num1 * num2
+ print(f"El resultat és {resultat}")
+elif operació == "/":
+ resultat = num1 / num2
+ print(f"El resultat és {resultat}")
+else:
+ print("Operació no vàlida")
 
 # Exercici 3: Any de traspàs
 # Demana a l'usuari que introdueixi un any i determina si és de traspàs.
