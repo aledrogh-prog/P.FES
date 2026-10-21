@@ -41,6 +41,10 @@ else:
 # Demana a l'usuari que introdueixi un any i determina si és de traspàs.
 # Un any és de traspàs si és divisible per 4, excepte si és divisible per 100
 # però no per 400.
+any_traspas= int(input("Introdueix un any: "))
+if(any_traspas % 4 == 0 and (any_traspas % 100 != 0 or any_traspas % 400 == 0)):
+ print(f"L'any {any_traspas} és de traspàs.")
+
 
 # Exercici 4: Classificar edats
 # Demana a l'usuari que introdueixi una edat i classifica-la en:
