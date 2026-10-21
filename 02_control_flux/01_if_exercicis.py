@@ -53,6 +53,19 @@ if(any_traspas % 4 == 0 and (any_traspas % 100 != 0 or any_traspas % 400 == 0)):
 # - Adolescent (13-17 anys)
 # - Adult (18-64 anys)
 # - Persona gran (65 anys o més)
+edat= int(input("Introdueix una edat: "))
+if edat < 0:
+    print("L'edat no pot ser negativa.")
+elif edat<= 2:
+    print("Nadó")
+elif edat <= 12:
+    print("Infant")
+elif edat <= 17:
+    print("Adolescent")
+elif edat <= 64:
+    print("Adult")
+else:
+    print("Persona gran")
 
 # Exercici 5: Qualitat del senyal Wi-Fi
 # Demana el nivell de senyal rebut (RSSI) en dBm i classifica la cobertura:
