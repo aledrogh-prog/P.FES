@@ -73,6 +73,16 @@ else:
 # - Entre -67 dBm i menys de -50 dBm: bona
 # - Entre -75 dBm i menys de -67 dBm: feble
 # - Inferior a -75 dBm: molt feble
+rssi= int(input("Introdueis el nivell de senyal Wi-Fi (RSSI) en dBm:   "))
+if rssi >= -50:
+  print("El nivell de senyal rebut és excel·lent")
+elif rssi >= -67:
+  print("El nivell de senyal rebut és bona")
+elif rssi >= -75:
+  print("El nivell de senyal rebut és feble")
+else:
+    print("El nivell de senyal rebut és molt feble")
+
 
 # Exercici 6: Nivell de recepció d'una connexió de fibra òptica
 # Demana la potència òptica rebuda en dBm. Per a aquest exercici, considera
