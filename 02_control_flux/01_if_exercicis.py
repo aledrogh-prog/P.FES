@@ -127,6 +127,15 @@ else:
 # de comunicacions. Indica si el nivell és crític (menys del 20 %), baix
 # (del 20 % al 49 %) o suficient (50 % o més). Rebutja valors fora del rang
 # del 0 % al 100 %.
+bateria= int(input("Introdueix el percentatge de bateria disponible al SAI que alimenta un armari de comunicacions:  "))
+if bateria < 0 or bateria > 100:
+   print("  El valor no és vàlid, està fora del rang")
+elif bateria < 20:
+  print("El nivell és crític")
+elif bateria <= 49:
+  print("El nivell és baix")
+else:
+  print("El nivell és suficient")
 
 # Exercici 10: Qualitat d'una connexió de xarxa
 # Demana la latència en mil·lisegons i el percentatge de paquets perduts.
