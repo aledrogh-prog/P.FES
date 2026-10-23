@@ -95,10 +95,17 @@ elif potencia_optica > -8:
   print("el nivell és massa alt ")
 else:
   print("el nivell es acceptable")
+
 # Exercici 7: Consum mensual de dades mòbils
 # Demana el consum de dades en GB d'una línia mòbil. El pla inclou 20 GB.
 # Indica si el consum és dins del límit o si l'ha superat; en aquest últim cas,
 # calcula quants GB addicionalsbaix s'han consumit.
+consum= float(input("Introdueix el consum de dades en GB d'una línia mòbil:  "))
+if consum <= 20:
+  print("el consum és dins del límit")
+else:
+  extra= consum - 20
+  print(f"El consum s'ha superat en {extra} GB")
 
 # Exercici 8: Diagnòstic d'una connexió de fibra
 # Demana si l'indicador LOS del terminal òptic està encès i si l'indicador
