@@ -112,6 +112,15 @@ else:
 # d'Internet del router està encès. Segons aquestes dues dades, indica si cal
 # revisar el cable de fibra, comprovar el servei del proveïdor o si la connexió
 # sembla funcionar correctament.
+indicador_LOS= input("l'indicador LOS del terminal òptic està encès si= 1 i no=0:  ")
+router= input("l'indicador del router està encès si= 1 i no=0:  ")
+if indicador_LOS == "0":
+  print("Cal revisar el cable de fibra")
+elif router == "0":
+  print("Comprovar el servei del proveïdor")
+else:
+  print("la connexió sembla funcionar correctament")
+
 
 # Exercici 9: Bateria d'un sistema d'alimentació ininterrompuda (SAI)
 # Demana el percentatge de bateria disponible al SAI que alimenta un armari
