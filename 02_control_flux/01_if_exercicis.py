@@ -88,11 +88,17 @@ else:
 # Demana la potència òptica rebuda en dBm. Per a aquest exercici, considera
 # acceptable un nivell entre -27 dBm i -8 dBm, ambdós inclosos.
 # Indica si el nivell és massa baix, acceptable o massa alt.
-
+potencia_optica= float(input("Introdueix la potència òptica rebuda en dBm:  "))
+if potencia_optica < -27:       
+  print("el nivell és massa baix")
+elif potencia_optica > -8:
+  print("el nivell és massa alt ")
+else:
+  print("el nivell es acceptable")
 # Exercici 7: Consum mensual de dades mòbils
 # Demana el consum de dades en GB d'una línia mòbil. El pla inclou 20 GB.
 # Indica si el consum és dins del límit o si l'ha superat; en aquest últim cas,
-# calcula quants GB addicionals s'han consumit.
+# calcula quants GB addicionalsbaix s'han consumit.
 
 # Exercici 8: Diagnòstic d'una connexió de fibra
 # Demana si l'indicador LOS del terminal òptic està encès i si l'indicador
