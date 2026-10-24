@@ -32,6 +32,10 @@ print(f"{paraula_a} == 'Hola': {paraula_a == 'Hola'}")
 # connexio_activa = False
 # Crea una variable anomenada xarxa_disponible que sigui True només si el
 # router està encès i la connexió està activa. Mostra'n el resultat.
+router_ences = True
+connexio_activa = False
+xarxa_disponible = router_ences and connexio_activa
+print(f"Xarxa disponible : {xarxa_disponible}")
 
 # Exercici 4: Avisos pendents
 # Donats els valors booleans:
