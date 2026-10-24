@@ -36,7 +36,9 @@ print(entrepa)
 # llista = [1, 2, 3]
 # Crea una llista nova que contingui duplicats els elements de la llista original.
 # Exemple: [1, 2, 3] -> [1, 2, 3, 1, 2, 3]
-
+llista = [1, 2, 3]
+llista.extend([1, 2, 3])
+print(llista)
 # Exercici 5: Extreure l'element central
 # Donada una llista amb un nombre senar d'elements, extreu-ne l'element central
 # fent servir slicing.
