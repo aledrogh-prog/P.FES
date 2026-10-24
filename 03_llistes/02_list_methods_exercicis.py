@@ -22,6 +22,15 @@ print(llista)
 # Elimina la primera aparició del nombre 1 de llista_a fent servir remove().
 # Elimina l'element de l'índex 3 de llista_a fent servir pop(). Imprimeix l'element eliminat.
 # Buida completament llista_b fent servir clear().
+llista_a = [1, 2, 3]
+llista_b = [4, 5, 6, 1, 2]
+llista_a.extend(llista_b)
+llista_a.remove(1)
+element_eliminat = llista_a.pop(3)
+print(f"Element eliminat: {element_eliminat}") 
+llista_b.clear()
+print("Llista a:", llista_a) 
+print("Llista b:", llista_b) 
 
 # Exercici 3: Slicing i eliminació amb del
 # Crea una llista amb els nombres de l'1 al 10.
