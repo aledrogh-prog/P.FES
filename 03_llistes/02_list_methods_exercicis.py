@@ -37,6 +37,9 @@ print("Llista b:", llista_b)
 # Fes servir slicing i del per eliminar els elements des de l'índex 2 fins al 5
 # (sense incloure el 5).
 # Imprimeix la llista resultant.
+llista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+del llista[2:5]
+print(llista)
 
 # Exercici 4: Ordenar i comptar
 # Crea una llista amb els nombres següents: [5, 2, 8, 1, 9, 4, 2].
