@@ -8,6 +8,12 @@
 # nombre_b = 5
 # Mostra el resultat de comparar si nombre_a és més gran, més petit o igual
 # que nombre_b.
+nombre_a = 8
+nombre_b = 5
+print(f"{nombre_a} > {nombre_b}: {nombre_a > nombre_b} ")
+print(f"{nombre_a} < {nombre_b}: {nombre_a < nombre_b} ")
+print(f"{nombre_a} == {nombre_b}: {nombre_a == nombre_b} ")
+
 
 # Exercici 2: Comparar cadenes de text
 # Donades les cadenes:
