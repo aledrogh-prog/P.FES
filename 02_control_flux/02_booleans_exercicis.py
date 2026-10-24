@@ -21,6 +21,10 @@ print(f"{nombre_a} == {nombre_b}: {nombre_a == nombre_b} ")
 # paraula_b = "hola"
 # Mostra si són iguals i si paraula_a és igual a "Hola".
 # Observa si Python distingeix entre majúscules i minúscules.
+paraula_a = "Hola"
+paraula_b = "hola"
+print(f"{paraula_a} == {paraula_b}: {paraula_a == paraula_b}")
+print(f"{paraula_a} == 'Hola': {paraula_a == 'Hola'}")
 
 # Exercici 3: Connexió de xarxa
 # Donats els valors booleans:
