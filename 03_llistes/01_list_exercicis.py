@@ -43,6 +43,8 @@ print(llista)
 # Donada una llista amb un nombre senar d'elements, extreu-ne l'element central
 # fent servir slicing.
 # Exemple: llista = [10, 20, 30, 40, 50] -> L'element central és 30
+llista = [10, 20, 30, 40, 50]
+print(llista[-3])
 
 # Exercici 6: Inversió parcial
 # Donada una llista, inverteix-ne només la primera meitat (fent servir slicing
