@@ -46,6 +46,10 @@ print(llista)
 # Ordena la llista de manera ascendent fent servir sort().
 # Compta quantes vegades apareix el nombre 2 a la llista fent servir count().
 # Comprova si el nombre 7 és a la llista fent servir in.
+llista = [5, 2, 8, 1, 9, 4, 2]
+llista.sort()
+print(llista.count(2))
+print(7 in llista)
 
 # Exercici 5: Còpia i referència
 # Crea una llista anomenada original amb els nombres [1, 2, 3].
@@ -54,7 +58,12 @@ print(llista)
 # Crea una referència a la llista original anomenada referencia.
 # Modifica a 10 el primer element de la llista referencia.
 # Imprimeix les quatre llistes (original, copia_1, copia_2 i referencia) i observa'n els canvis.
+original = [1, 2, 3]
+
 
 # Exercici 6: Ordenar cadenes sense distingir entre majúscules i minúscules
 # Crea una llista amb les cadenes següents: ["Poma", "pera", "PLÀTAN", "taronja"].
 # Ordena la llista sense distingir entre majúscules i minúscules.
+cadena = ["Poma", "pera", "PLÀTAN", "taronja"]
+cadena.sort(key=str.lower)
+print(f"La llista ordenada es{cadena} ")
