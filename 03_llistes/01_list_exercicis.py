@@ -24,9 +24,13 @@ print(nombres)
 # pa_de_dalt = ["pa de dalt"]
 # ingredients = ["pernil", "formatge", "tomàquet"]
 # pa_de_sota = ["pa de sota"]
-# Crea una llista anomenada entrepa que contingui, en aquest ordre, el pa de dalt,
+# Crea una llista anomenada entrepa que contingui, en aquest ordre, el pa de dalt,ººº
 # els ingredients i el pa de sota.
-
+pa_de_dalt = ["pa de dalt"]
+ingredients = ["pernil", "formatge", "tomàquet"]
+pa_de_sota = ["pa de sota"]
+entrepa = pa_de_dalt + ingredients + pa_de_sota
+print(entrepa)
 # Exercici 4: Duplicar una llista
 # Donada una llista:
 # llista = [1, 2, 3]
