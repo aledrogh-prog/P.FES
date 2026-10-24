@@ -15,6 +15,9 @@ print(missatge[5:11])
 # Donada la llista següent:
 # nombres = [10, 20, 30, 40, 50]
 # Intercanvia la primera i l'última posició fent servir només l'assignació per índex.
+nombres = [10, 20, 30, 40, 50]
+nombres[-1], nombres[0] = nombres[0], nombres[-1]
+print(nombres)
 
 # Exercici 3: L'entrepà de llistes
 # Donades les llistes següents:
