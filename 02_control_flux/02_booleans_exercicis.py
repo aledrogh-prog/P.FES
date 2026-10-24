@@ -43,6 +43,10 @@ print(f"Xarxa disponible : {xarxa_disponible}")
 # alerta_critica = True
 # Crea una variable anomenada cal_avisar que sigui True si hi ha una
 # actualització disponible o una alerta crítica. Mostra'n el resultat.
+actualitzacio_disponible = False
+alerta_critica = True
+cal_avisar = actualitzacio_disponible or alerta_critica
+print(f"Cal avisar: {cal_avisar}")
 
 # Exercici 5: Accés a un compte
 # Donats els valors booleans:
