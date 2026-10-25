@@ -49,7 +49,12 @@ print("Contrasenya vàlida")
 # Exercici 5: Taula de multiplicar
 # Demana a l'usuari que introdueixi un número.
 # Imprimeix la taula de multiplicar d'aquest número (de l'1 al 10) fent servir un bucle while.
-
+comptador = 1
+numero = int(input("Introdueix un numero:  "))
+while comptador <= 10:
+ resultat = numero * comptador
+ print(f"{numero} * {comptador} = {resultat}")
+ comptador += 1
 # Exercici 6: Números primers fins a N
 # Demana a l'usuari que introdueixi un número enter positiu N.
 # Imprimeix tots els números primers menors o iguals que N fent servir un bucle while.
