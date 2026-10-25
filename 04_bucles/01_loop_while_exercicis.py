@@ -39,6 +39,12 @@ print(f"El factorial és {factorial}")
 # La contrasenya ha de tenir almenys 8 caràcters.
 # Fes servir un bucle while per continuar demanant la contrasenya fins que compleixi els requisits.
 # Si la contrasenya és vàlida, imprimeix "Contrasenya vàlida".
+contrasenya = "" 
+while  len(contrasenya) < 8:
+ contrasenya = input("Introdueix una contrasenya de 8 caràcters: ")
+ if len(contrasenya) < 8:
+  print("La contrasenya ha de tenir almenys 8 caràcters. Torna a provar ")
+print("Contrasenya vàlida")
 
 # Exercici 5: Taula de multiplicar
 # Demana a l'usuari que introdueixi un número.
