@@ -144,6 +144,22 @@ else:
 # i la pèrdua és de l'1 % o menys; bona si és de 80 ms o menys i la pèrdua és
 # del 3 % o menys; acceptable si és de 150 ms o menys i la pèrdua és del 5 %
 # o menys; en qualsevol altre cas, deficient.
+latencia= int(input("Introdueix la latència en mil·lisegons:  "))
+perduda= int(input("Introdueix el percentatge de paquets perduts (0-100):  "))
+if latencia < 0 or perduda < 0 or perduda > 100:
+  print("Error: valors no vàlids") 
+if latencia <= 30 and perduda <= 1:
+  print("La connexió és excel·lent")  
+if latencia <= 80 and perduda <= 3:
+  print("La connexió és bona")    
+if latencia <= 150 and perduda <= 5:  
+  print("La connexió és acceptable")  
+if latencia > 150 or perduda > 5:
+  print("La connexió és deficient")   
+else:
+  print("Error: valors no vàlids")  
+
+
 
 # Exercici 11: Cost mensual d'un pla de dades
 # Demana el tipus de pla (bàsic o plus) i el consum mensual en GB.
